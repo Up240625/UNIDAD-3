@@ -1,5 +1,5 @@
 edad = 18
-altura = 1.68
+altura = 1.80
 base=int (input('Enter base'))
 height=int (input('Enter height'))
 area=int (0.5*base*height)
