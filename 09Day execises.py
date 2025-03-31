@@ -1,12 +1,11 @@
-# Level 1
-# 1
+
 age = int(input('Enter age: '))
 if age >= 18:
     print("You are old enough to drive.")
 else:
     print("You need to wait", 18 - age, "years.")
 
-# 2
+
 my_age = 18
 
 if age == my_age:
@@ -16,7 +15,7 @@ elif age > my_age:
 else:
     print("I am", my_age - age, "years older than you")
 
-# 3
+
 a = int(input("Enter number: "))
 b = int(input("Enter number: "))
 if a > b:
@@ -26,8 +25,7 @@ elif a < b:
 else:
     print("Both numbers are equal")
 
-# Level 2
-# 1
+
 score = int(input("Enter score: "))
 
 grades = {}
@@ -44,7 +42,7 @@ for i in range(0, 50):
 
 print("Grade:", grades[score])
 
-# 2
+
 month = input('Enter month: ').title()
 if month in ["September", "October", "November"]:
     print("Autumn")
@@ -55,13 +53,13 @@ if month in ["March", "April", "May"]:
 
 else: print("Summer")
 
-# 3
+
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruit = input('Enter fruit: ')
 print('That fruit already exists in the list' if fruit in fruits else fruits.append(fruit))
 print(fruits)
 
-# Level 3
+
 person = {
     'first_name': 'Fernando',
     'last_name': 'Flores',
